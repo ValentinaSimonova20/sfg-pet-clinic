@@ -7,9 +7,14 @@
         <groupId>guru.springframework</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
+    <properties>
+        <spring-boot.repackage.skip>true</spring-boot.repackage.skip>
+        <java.version>14</java.version>
+    </properties>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>pet-clinic-web</artifactId>
+
 
     <dependencies>
         <dependency>
