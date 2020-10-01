@@ -6,6 +6,7 @@
         <module>pet-clinic-data</module>
         <module>pet-clinic-web</module>
     </modules>
+
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -14,7 +15,7 @@
     </parent>
     <groupId>guru.springframework</groupId>
     <artifactId>sfg-pet-clinic</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.1-SNAPSHOT</version>
     <name>sfg-pet-clinic</name>
     <description>SFG Pet Clinic Project</description>
     <properties>
@@ -25,8 +26,7 @@
     </properties>
     <scm>
         <developerConnection>scm:git:https://github.com/ValentinaSimonova20/sfg-pet-clinic.git</developerConnection>
-    <tag>sfg-pet-clinic-0.0.1</tag>
-  </scm>
+    </scm>
 
 
 
@@ -42,7 +42,6 @@
                 <version>2.5.3</version>
                 <configuration>
                     <goals>install</goals>
-                    <autoVersionSubmodules>true</autoVersionSubmodules>
                 </configuration>
             </plugin>
         </plugins>
