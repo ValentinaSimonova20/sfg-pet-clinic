@@ -1,0 +1,11 @@
+{
+  "groups": [],
+  "properties": [
+    {
+      "name": "characterEncoding",
+      "type": "java.lang.String",
+      "description": "Description for characterEncoding."
+    }
+  ],
+  "hints": []
+}
